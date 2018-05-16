@@ -11,7 +11,6 @@ public class Principal_16052018 {
 		int option = -1;
 		int a;
 		Carro novo;
-		String aux;
 		
 		ArrayList<Carro> cad = new ArrayList<>();
 		
@@ -50,12 +49,13 @@ public class Principal_16052018 {
 				}
 				cad.add(novo);
 				}
-			}
-			if (option ==2){
+			if(option==2){
 				System.out.println(cad);
 			}
-		}
+			}
 
 	}
-
 }
+
+
+
