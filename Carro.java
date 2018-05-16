@@ -30,7 +30,7 @@ public class Carro {
 	}
 	public boolean equals(Object arg0){
 		Carro aux = (Carro)arg0;
-		if (this.getChassi().equals(arg0.getChassi())){
+		if (this.getChassi().equals(aux.getChassi())){
 			return true;
 		}else{
 			return false;
